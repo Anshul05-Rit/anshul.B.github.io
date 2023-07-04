@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup Page</title>
+ <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+  <h2>Signup</h2>
+  <form id="signupForm">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <span id="nameError" class="error"></span>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <span id="emailError" class="error"></span>
+    </div>
+    <div>
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="admin_id" required>
+      <span id="phoneNumberError" class="error"></span>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <span id="passwordError" class="error"></span>
+    </div>
+    <input type="submit" value="Signup">
+  </form>
+<script src="validation.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <body>
+    <h1>Signup</h1>
+    <form action="/signup" method="POST">
+      <div class="form-group">
+        <label for="admin_id">Admin ID:</label>
+        <input type="text" id="admin_id" name="admin_id" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Signup">
+      </div>
+    </form>
+  </body>
+  </html>
+   -->
